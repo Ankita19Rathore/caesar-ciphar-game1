@@ -1,25 +1,30 @@
-Description
+# Caesar Cipher Game
 
-This is a Python-based Caesar Cipher game that allows users to encrypt and decrypt messages using a simple shift key. The Caesar Cipher is a classic encryption technique where each letter in the plaintext is shifted by a fixed number of positions down the alphabet.
+This is a Python-based implementation of the classic **Caesar Cipher** encryption technique. The program allows users to encrypt and decrypt messages using a fixed shift key, demonstrating basic cryptography concepts and string manipulation in Python.
 
-Features
+---
 
-Encrypt messages using a shift key.
+## 🔐 About Caesar Cipher
 
-Decrypt messages with the same key.
+The Caesar Cipher is a simple substitution cipher where each letter in the plaintext is shifted by a fixed number of positions in the alphabet. Non-alphabetic characters remain unchanged.
 
-Handles both uppercase and lowercase letters.
+---
 
-Ignores non-alphabetic characters (numbers, symbols, spaces).
+## ✨ Features
 
-How to Play:-
+- Encrypt messages using a user-defined shift key  
+- Decrypt messages using the same key  
+- Supports both uppercase and lowercase letters  
+- Ignores non-alphabetic characters such as numbers, spaces, and symbols  
 
-  Run the Python script:
-  
-  python caesar_cipher.py
+---
 
+## ▶️ How to Run the Program
 
-  Choose whether you want to encrypt or decrypt a message.
+1. Clone the repository  
+2. Run the Python script:
+   ```bash
+   python caesar_cipher.py
 
   Enter the message.
 
